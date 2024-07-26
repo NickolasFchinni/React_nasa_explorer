@@ -9,10 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
+        'hero-pattern': "url('/spaceTest.jpg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        
       },
+      backgroundColor:{
+        "custom-black": "rgba(0,0,0, 0.7)"
+      }
     },
   },
   plugins: [],
